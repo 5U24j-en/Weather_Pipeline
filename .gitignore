@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets / environment config
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+weather_pipeline.log
+
+# Data outputs
+data/
+*.json
+*.parquet
+*.csv
+
+# Delta Lake metadata/output
+_delta_log/
+*.crc
+*.snappy.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+notebook/.ipynb_checkpoints/
+
+# Local databases / tool state
+anaconda_projects/
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#Notebooks
+notebook
+
+#Agents
+.agents
